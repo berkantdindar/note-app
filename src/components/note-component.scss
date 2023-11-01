@@ -1,0 +1,33 @@
+.note-paper {
+  .MuiPaper-root {
+    width: auto !important;
+    max-width: 300px;
+    white-space: pre-wrap;
+
+    .note-title {
+      border-bottom: 3px solid gold;
+      font-size: large;
+      line-height: 24px;
+    }
+    .note-exp {
+      text-align: start;
+    }
+    .note-date {
+      margin-left: auto;
+      margin-right: 0;
+      position: absolute;
+      bottom: 0px;
+      font-size: small;
+    }
+    .delete-task-icon {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+    .edit-task-icon {
+      position: absolute;
+      bottom: 0;
+      right: 30px;
+    }
+  }
+}
